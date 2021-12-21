@@ -1,4 +1,5 @@
 import streamlit as st
+from typing import Sequence, Tuple
 
 st.set_page_config(page_title="review", layout='centered', initial_sidebar_state="collapsed")
 
