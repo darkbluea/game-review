@@ -3,7 +3,7 @@ from typing import Sequence, Tuple
 
 st.set_page_config(page_title="review", layout='centered', initial_sidebar_state="collapsed")
 
-def questionRanked(Sequence[Tuple[str]]: answers):
+def questionRanked(answers: Sequence[Tuple[str]]):
   st.write(str(answers))
 
 def main():
