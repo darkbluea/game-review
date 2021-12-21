@@ -1,2 +1,2 @@
 streamlit>=1.0.0
-typing>=3.10.0
+typing>=3.5.0
