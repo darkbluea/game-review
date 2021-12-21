@@ -5,7 +5,7 @@ st.set_page_config(page_title="review", layout='centered', initial_sidebar_state
 
 
 class Section():
-  def __init__(self)
+  def __init__(self):
     st.write(str(type(self)))
 
 class Graphics(Section):
