@@ -7,7 +7,7 @@ def questionRanked(answers: Sequence[dict]):
   st.write(str(answers))
 
 def main():
-  questionRanked([{name:"a"},
-                  {name:"b"}])
+  questionRanked([{"name":"a"},
+                  {"name":"b"}])
 if __name__ == '__main__':
   main()
