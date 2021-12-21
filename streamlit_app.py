@@ -6,7 +6,7 @@ st.set_page_config(page_title="review", layout='centered', initial_sidebar_state
 def questionRanked(name: str, answers: Sequence[dict]):
   st.write(name)
   st.write(str(answers))
-  st.select_slider(name, options=[dict.name for dict in answers])
+  st.select_slider(name, options=[dict['name'] for dict in answers])
 
 def main():
   questionRanked("question",
