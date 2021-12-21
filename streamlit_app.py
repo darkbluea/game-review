@@ -15,9 +15,7 @@ class Graphics(Section):
                                           "b"])
 
 def main():
-  st.write("Graphics")
-  st.select_slider("question", options=["a",
-                                        "b"])
+  graphics = Graphics()
 
 
 if __name__ == '__main__':
