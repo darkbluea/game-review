@@ -9,7 +9,8 @@ def questionRanked(name: str, answers: Sequence[dict]):
   st.select_slider(name, options=[dict.name for dict in answers])
 
 def main():
-  questionRanked([{"name":"a"},
-                  {"name":"b"}])
+  questionRanked("question"
+    [{"name":"a"},
+     {"name":"b"}])
 if __name__ == '__main__':
   main()
